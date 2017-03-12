@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="jumbotron brand-bg">
+  <div class="container">
+    <h1>Digital delivery that feels good.</h1>
+    <p>Life's too short not be excited about what you do. Digital should be engaging, rewarding and fun.</p>
+  </div>
+</div>
+
+<div class="white-bg"  id="thought">
+  <div class="container posts">
+    <div class="row">
+    {% for post in site.categories.featured %}
+      <div class="col-md-12">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p>{{ post.summary }}</p>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+  <hr class="gi-hr"/>
+  <div class="container posts">
+    <div class="row">
+    {% for post in site.categories.front %}
+      <div class="col-md-6">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p>{{ post.summary }}</p>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+{% include profile.html %}
