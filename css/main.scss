@@ -43,7 +43,10 @@ $fa-font-path: "../fonts" !default;
 @import "font-awesome/font-awesome";
 
 .posts {
-  width: 66%;
+  .container {
+    width: 66%;
+  }
+  padding: 30px 0px;
 }
 
 .post {
