@@ -4,7 +4,7 @@ title:  "Beating Bystanding"
 date:   2017-03-11 12:34:41 +0000
 summary: As a team grows it can often feel harder to find help. How can you get your team back on the front foot and supporting each other?
 categories: team
-position: front
+position: featured
 ---
 Our engineering team has doubled in size over the last two years. During that time we’ve recruited people who value helping others and embedded them into our supportive culture. So, why is it more difficult to find help?
 
