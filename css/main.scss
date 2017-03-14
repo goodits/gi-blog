@@ -42,6 +42,10 @@ $navbar-default-brand-hover-bg:            transparent !default;
 $fa-font-path: "../fonts" !default;
 @import "font-awesome/font-awesome";
 
+p.footnote {
+  font-style: italic;
+}
+
 .posts {
   .container {
     width: 66%;

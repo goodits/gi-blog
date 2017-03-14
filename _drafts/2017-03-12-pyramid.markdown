@@ -3,7 +3,8 @@ layout: post
 title:  "Millennial Maslow Jenga"
 date:   2017-03-14 00:00:00 +0000
 summary: Existing thinking of how people are motivated to progress in their roles is changing. It’s important that companies adapt to embrace it or risk losing their top talent.
-categories: featured
+categories: motivation
+position: featured
 ---
 How people are motivated to stay and progress in their roles is changing. It’s important that companies adapt to embrace the change or risk losing their top talent.
 
@@ -42,7 +43,3 @@ Certainly not everyone is in this mould, and even the most stable of pyramids ma
 The transition many tech companies need to make is to pay more attention to the esteem and actualization of their teams. Strive to create a journey that will make the most of their abilities and fill them with pride.
 
 The companies who have the capacity to achieve the most across the board will be most successful in their recruitment and retention.
-
----
-
-_If you have any questions, comments, corrections or counter points, please don't hesitate to get in touch on Twitter @steve_coppin. Would love to discuss them._

@@ -3,7 +3,8 @@ layout: post
 title:  "Finishing fast by managing pace"
 date:   2016-07-25 00:00:00 +0000
 summary: A recent example, albeit nothing to do with business or technology, to reminded me that speed is not the only element in finishing fast.
-categories: front
+categories: delivery
+position: front
 ---
 We’ve been discussing speed a lot internally both in relation to our systems and our delivery. We want to waste no time in delivering new features and improvements to our customers to maintain our competitive advantage. A recent example, albeit nothing to do with business or technology, reminded me that speed is not the only element in finishing fast.
 I’m not much of a runner, but I’ve been bringing my time down consistently over the last month. Imagine my delight when the sun was out, the air was clear and I was feeling fit. Conditions were perfect for a new personal best.
