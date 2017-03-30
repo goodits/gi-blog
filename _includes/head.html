@@ -24,7 +24,7 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:url" content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}" />
   <meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:image" itemprop="image" content="http://gooditerations.com/assets/img/logo-preview.png" />
+  <meta property="og:image" itemprop="image" content="{% if page.image %}/assets/img/{{ page.image }}-preview.png{% else %}/assets/img/logo-preview.png{% endif %}" />
   <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}" />
 
 </head>
