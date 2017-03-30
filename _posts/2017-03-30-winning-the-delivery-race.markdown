@@ -2,7 +2,7 @@
 layout: post
 title:  "Winning the delivery race"
 date:   2017-03-30 00:00:00 +0000
-summary: The Formula One season kicked off this weekend, reminding me of an anecdote I’ve used to explain strategy around setting an appropriate pace as an alternative way to look at technical debt.
+summary: The Formula One season kicked off this weekend. It reminded me of an anecdote I’ve used to explain strategy around setting an appropriate pace and the impact of technical debt in engineering projects.
 categories: delivery
 image: winning-the-delivery-race
 position: featured
