@@ -2,12 +2,12 @@
 layout: post
 title:  "Winning the delivery race"
 date:   2017-03-30 00:00:00 +0000
-summary: The Formula One season kicked off this weekend. It reminded me of an anecdote I’ve used to explain strategy around setting an appropriate pace and the impact of technical debt in engineering projects.
+summary: The Formula One season kicked off this weekend. It reminded me of an anecdote I’ve used to explain the setting of an appropriate pace and the impact of technical debt in engineering projects.
 categories: delivery
 image: winning-the-delivery-race
 position: featured
 ---
-The Formula One season kicked off this weekend. It reminded me of an anecdote I’ve used to explain strategy around setting an appropriate pace and the impact of technical debt in engineering projects. If you’re not familiar with the premise of technical debt, [check out this video by Ward Cunningham](https://www.youtube.com/watch?v=pqeJFYwnkjE]){:target="_blank"} for a quick intro by the man who coined the term. If you’re not at least a little familiar with car racing, you may want to [read another post](/)!
+The Formula One season kicked off this weekend. It reminded me of an anecdote I’ve used to explain the setting of an appropriate pace and the impact of technical debt in engineering projects. If you’re not familiar with the premise of technical debt, [check out this video by Ward Cunningham](https://www.youtube.com/watch?v=pqeJFYwnkjE]){:target="_blank"} for a quick intro by the man who coined the term. If you’re not at least a little familiar with car racing, you may want to [read another post](/)!
 
 If you’ll indulge a bit of over-simplification of the sport and some abstract thinking, I’m going to pick out a couple of success factors with parallels to highly effective teams.
 
