@@ -12,7 +12,7 @@ $link-hover-decoration: underline !default;
 
 $font-family-sans-serif:  'Source Sans Pro', sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
-$font-size-base:          18px !default;
+$font-size-base:          20px !default;
 
 $font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
 $font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
@@ -125,11 +125,10 @@ hr.gi-hr {
     border: solid 4px #FFF;
     max-height: 280px;
     max-width: 280px;
-
   }
 
   p {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
@@ -173,10 +172,11 @@ footer {
 }
 
 .btn-default {
-  color: $brand-primary;
+  color: #fff;
+  background-color: $brand-primary;
   &:hover {
-    color: #FFF;
-    background-color: $brand-primary;
+    color: #fff;
+    background-color: darken($brand-primary, 10%);
   }
 }
 
@@ -196,6 +196,10 @@ blockquote {
   font-weight: bold;
   font-style: italic;
   margin: 0px;
+
+  p {
+    color: lighten($text-color, 10%);
+  }
 
   i {
     padding-left: 5px;
