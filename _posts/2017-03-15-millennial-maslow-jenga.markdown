@@ -13,13 +13,15 @@ Recruitment and retention in digital has changed significantly over the past dec
 
 More effective remote working is set to make this more competitive still. There are a multitude of ways this is set to change digital recruitment (a topic worthy of a separate post). One impact on recruitment and retention is that your catchment area is now being shared by the rest of the world. Silicon Valley is now a short commute from your rural, British cottage to your nearest coworking space.
 
-The days of the organisation who “pay well for the area” are numbered. They need a better selling point, and soon.
+The days of the organisations who “pay well for the area” are numbered. They need a better selling point, and soon.
 
 ## The closing gaps
 
 Since [Maslow’s Hierarchy of Needs](http://www.simplypsychology.org/maslow.html) was published, the basic human need is more easily achieved. This has elevated the aspirations of the modern worker.  
 
 While water, food and shelter are available to the vast majority of people in employment, our Physiological needs are now measured by our level of comfort, and less by survival. Comfort is tradeable.
+
+> The days of the organisations who “pay well for the area” are numbered.
 
 Availability of positions, especially in digital, also means our concerns around our ability to find employment is low. Safety needs - physical and mental aside - then become less of a concern. Job security can be worth a gamble.
 

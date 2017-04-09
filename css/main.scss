@@ -190,6 +190,26 @@ footer {
   }
 }
 
+blockquote {
+  text-align: center;
+  border-left: none;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0px;
+
+  i {
+    padding-left: 5px;
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  blockquote {
+    width: 50%;
+    float: right;
+  }
+}
+
+
 @media (max-width: $screen-md-min) {
 
   body {

@@ -21,6 +21,8 @@ It’s worth the investment in time to highlight the why before assigning accoun
 ## Problems, not instructions
 Once your team understand the vision, let them run with it. Micromanaged accountability means your team feel all of the responsibility and none of the control. It’s a really uncomfortable position to be in. Feeling the need to micromanage would suggest the team were not ready to take responsibility, or the vision wasn’t communicated completely.
 
+> To ask a team to be accountable is to trust them to achieve a result with little to no intervention.
+
 A team who understand the vision and are free to make decisions on how to pursue it can be highly effective. The team are being asked to use their extensive collective knowledge to find the right solution to your problem and should have few reasons not to feel accountable for the result. They’re likely to [feel more motivated](/motivation/2017/03/15/millennial-maslow-jenga.html), too.
 
 ## Trust and reporting
