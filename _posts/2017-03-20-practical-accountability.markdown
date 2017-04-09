@@ -5,6 +5,7 @@ date:   2017-03-20 00:00:00 +0000
 summary: Creating accountability is a great way to scale productive and fulfilled digital teams. It can be very emotive and difficult to get right, but it is well worth trying to.
 categories: motivation
 position: featured
+keywords: accountability, application, teams, autonomy, effectiveness
 ---
 Creating accountability is a great way to scale productive and fulfilled digital teams. It can be an effective motivation tool and also help teams feel responsible for the success of a project. Once teams understand what’s expected of them, know how to achieve it and own the success they can progress without much oversight. You can get back to refining the strategy for the next project.
 

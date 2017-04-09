@@ -27,4 +27,10 @@
   <meta property="og:image" itemprop="image" content="{% if page.image %}/assets/img/{{ page.image }}-preview.png{% else %}/assets/img/logo-preview.png{% endif %}" />
   <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}" />
 
+  {% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}" />
+  {% else %}
+  <meta name="keywords" content="{{ site.keywords }}" />
+  {% endif %}
+
 </head>

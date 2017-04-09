@@ -6,6 +6,7 @@ summary: The Formula One season kicked off this weekend. It reminded me of an an
 categories: delivery
 image: winning-the-delivery-race
 position: featured
+keywords: pace, speed, delivery, debt, winning
 ---
 The Formula One season kicked off this weekend. It reminded me of an anecdote I’ve used to explain the setting of an appropriate pace and the impact of technical debt in engineering projects. If you’re not familiar with the premise of technical debt, [check out this video by Ward Cunningham](https://www.youtube.com/watch?v=pqeJFYwnkjE]){:target="_blank"} for a quick intro by the man who coined the term. If you’re not at least a little familiar with car racing, you may want to [read another post](/)!
 

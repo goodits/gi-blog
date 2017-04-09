@@ -5,6 +5,7 @@ date:   2017-02-02 12:34:41 +0000
 summary:  A day to talk and break the silence around mental health problems. Talking may not be the first step in any recovery, but in these changing times it can really help.
 categories: mental-health
 position: front
+keywords: mental, health, talking, workplace, time to talk
 ---
 The first Thursday in February is [Time to Talk Day](http://www.time-to-change.org.uk/timetotalkday). My first experience of this remarkable day was in 2016, while working at a small digital agency. I’d been asked by my boss, who knew mental health was close to my heart, to bring the day to the attention of the team. The plan was to get together, enjoy some tea and cake, and be open to talking about mental health with whoever would like to discuss it.
 
