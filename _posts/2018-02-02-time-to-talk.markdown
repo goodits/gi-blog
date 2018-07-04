@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Time to talk"
-date:   2017-02-02 12:34:41 +0000
+date:   2018-02-02 12:34:41 +0000
 summary:  A day to talk and break the silence around mental health problems. Talking may not be the first step in any recovery, but in these changing times it can really help.
 categories: mental-health
 position: front

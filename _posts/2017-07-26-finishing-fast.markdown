@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Finishing fast by managing pace"
-date:   2016-07-25 00:00:00 +0000
+date:   2017-07-25 00:00:00 +0000
 summary: A recent example, albeit nothing to do with business or technology, to reminded me that speed is not the only element in finishing fast.
 categories: delivery
 position: front

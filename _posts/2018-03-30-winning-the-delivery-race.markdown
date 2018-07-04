@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Winning the delivery race"
-date:   2017-03-30 00:00:00 +0000
+date:   2018-03-30 00:00:00 +0000
 summary: The Formula One season kicked off this weekend. It reminded me of an anecdote I’ve used to explain the setting of an appropriate pace and the impact of technical debt in engineering projects.
 categories: delivery
 image: winning-the-delivery-race
@@ -15,7 +15,7 @@ If you’ll indulge a bit of over-simplification of the sport and some abstract 
 ## Looking after your tyres
 Tyres are important for traction. The faster you race them, the hotter they become and the quicker they wear. You’ll get to the point where your speed drops, or they blow and your race is over. Too cold though and you won’t have enough grip to stay in the race. To win a race, you need to consider the amount of traction you’ll need in your tyres to stay competitive.
 
-Technical debt in code, and its affect on your competitiveness,  is similar. The longer you pursue speed of delivery above platform health, the more debt you’ll build up and your capacity to move at speed will reduce. A strategy to race your vehicle as fast as possible for as long as possible is a quick way to hitting the wall, literally and figuratively.
+Technical debt in code, and its affect on your competitiveness, is similar. The longer you pursue speed of delivery above platform health, the more debt you’ll build up and your capacity to move at speed will reduce. A strategy to race your vehicle as fast as possible for as long as possible is a quick way to hitting the wall, literally and figuratively.
 
 *Unfortunately, my analogy doesn’t offer a way to pay off a little debt as you go. Conveniently forget that for a moment and let me bring your attention to the impact of your pace.*
 
@@ -35,4 +35,4 @@ So how do you win a race? A lot depends on what your competitors are doing and a
 
 When an opportunity presents itself, it may well be the right thing to put your metaphorical “pedal to the metal” and push hard for it. But consider the impact of that push. You’ll most likely have built up debt and perhaps the right thing to do next is to ease off a bit and have a more balanced approach to the management of debt for a while. However, if you’re lucky (and prepared) you’ll have built a gap over your competitors big enough to replace the debt-ridden component. Quite often, when you’re able to change your tyres and you come back out still in the lead, the top of the podium is yours.
 
-Whatever the strategy is at any given time, make it known to the team. It’s the drivers who need to make those quick decisions on how best to execute it. After all, it’ll be [more fun for them too](/motivation/2017/03/15/millennial-maslow-jenga.html).
+Whatever the strategy is at any given time, make it known to the team. It’s the drivers who need to make those quick decisions on how best to execute it. After all, it’ll be [more fun for them too](/motivation/2018/03/15/millennial-maslow-jenga.html).

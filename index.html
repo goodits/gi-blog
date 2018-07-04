@@ -2,36 +2,107 @@
 layout: default
 ---
 
-<div class="jumbotron brand-bg">
-  <div class="container">
-    <h1>Digital delivery that feels good.</h1>
-    <p>{{ site.description }}</p>
-  </div>
+<div class="row alert alert-info alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  Hello! This site is very much in beta, so you <em>Better Expect Those Accidents</em>. I haven't tested on all devices, browsers and widths <strong>yet</strong>, but I do want to it work for you. If you find any content, styling or functional issues please <a href="https://twitter.com/GoodIterations">DM me a note on Twitter</a> and follow while you're there. Thank you for your support! Steve C-S.
 </div>
 
-<div class="white-bg posts"  id="thought">
-  <div class="container featured">
-    <div class="row">
-        <div class="col-md-4">
-          <h2>
-            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-            Posts
-          </h2>
+<div class="row jumbotron brand-bg">
+  <h2>Digital delivery that feels <span class="font-brand">good</span>.</h2>
+  <h3>{{ site.description }}</h3>
+</div>
+
+<div class="row services white-bg">
+  <h2>What we do best.</h2>
+  {% for service in site.data.services %}
+  <div class="col-md-4 service">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-sm-4">
+          <img src="/assets/img/{{ service.image }}" alt="{{ service.image-alt }}" />
         </div>
-        <div class="col-md-8">
-        {% for post in site.posts %}
-        <div class="post-teaser">
-          <h3>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h3>
-          <span class="post-meta">
-             {{ post.date | date: "%b %-d, %Y" }}
-          </span>
-          <p>{{ post.summary }}</p>
+        <div class="col-md-12 col-sm-8">
+          <h3>{{ service.title }}</h3>
+          <p>{{ service.blurb }}</p>
         </div>
-        {% endfor %}
       </div>
     </div>
   </div>
+  {% endfor %}
 </div>
-{% include profile.html %}
+
+<div class="row profile brand-bg narrow">
+  <h2>Meet the founder.</h2>
+  {% for founder in site.data.founders %}
+  <div class="col-sm-4">
+    <img src="assets/img/{{ founder.image }}" alt="{{ founder.image-alt }}" />
+  </div>
+  <div class="col-sm-8">
+    <h3 class="font-brand">{{ founder.salutation }}!</h3>
+      {% for note in founder.notes %}
+        <p>{{ note }}</p>
+      {% endfor %}
+    <h3 class="font-brand">{{ founder.name }}</h3>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="row references gray-bg narrow">
+  <h2>A few positive vibes.</h2>
+  {% for reference in site.data.references %}
+  <div class="col-md-4 reference">
+    <p>{{ reference.note }}</p>
+    <p span class="font-brand">
+      {{ reference.name }}, {{ reference.title}}
+    </p>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="row posts white-bg narrow">
+  <div class="col-md-3">
+    <h2>
+      <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+      Thoughts
+    </h2>
+    <p>A selection of blog posts on various topics. Want me to talk to particular problem? <a href="https://twitter.com/intent/tweet?text=Hey%20%40gooditerations%2C%20what%20are%20your%20thoughts%20on%20______%3F&amp;url=http://www.gooditerations.com">Drop me a note! <i class="fa fa-twitter-square" aria-hidden="true"></i></a></p>
+  </div>
+  <div class="col-md-9">
+    {% for post in site.posts %}
+    <div class="post-teaser">
+      <h3>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h3>
+      <span class="post-meta">
+         {{ post.date | date: "%b %-d, %Y" }}
+      </span>
+      <p>{{ post.summary }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<hr class="gi-hr"/>
+
+<div class="row posts white-bg narrow">
+  <div class="col-md-3">
+    <h2>
+      <i class="fa fa-book" aria-hidden="true"></i>
+      Influences
+    </h2>
+      <p>Here are some works I've found really useful over the years. Know something I might find interesting? <a href="https://twitter.com/intent/tweet?text=Hey%20%40gooditerations%2C%20you%27ve%20got%20to%20read%20______.&amp;url=http://www.gooditerations.com">Send me a suggestion! <i class="fa fa-twitter-square" aria-hidden="true"></i></a></p>
+  </div>
+  <div class="col-md-9">
+    {% for reading in site.data.readings %}
+    <div class="post-teaser">
+      <h3>
+        {{ reading.title }}
+      </h3>
+      <span class="post-meta">
+         {{ reading.author }}
+      </span>
+      <p>{{ reading.summary }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>

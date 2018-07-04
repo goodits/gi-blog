@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Beating Bystanding"
-date:   2017-03-11 12:34:41 +0000
+date:   2018-03-11 12:34:41 +0000
 summary: As a team grows it can often feel harder to find help. How can you get your team back on the front foot and supporting each other?
 categories: team
 position: front

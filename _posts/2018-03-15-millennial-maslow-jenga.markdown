@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Millennial Maslow Jenga"
-date:   2017-03-15 00:00:00 +0000
+date:   2018-03-15 00:00:00 +0000
 summary: How people are motivated to stay and progress in their roles is changing. It’s important that companies adapt to embrace the change or risk losing their top talent.
 categories: motivation
 position: featured

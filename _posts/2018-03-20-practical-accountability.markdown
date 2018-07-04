@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Practical Accountability"
-date:   2017-03-20 00:00:00 +0000
+date:   2018-03-20 00:00:00 +0000
 summary: Creating accountability is a great way to scale productive and fulfilled digital teams. It can be very emotive and difficult to get right, but it is well worth trying to.
 categories: motivation
 position: featured

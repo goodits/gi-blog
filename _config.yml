@@ -1,10 +1,10 @@
 # Site settings
 title: Good Iterations
-email: steve.coppin@gmail.com
-description: Life's too short not be excited about what you do. Case studies and strategies to get you and your digital team firing on all cyclinders.
+email: steve@gooditerations.com
+description: Life's too short not be excited about what you do. Good Iterations are determined to help you get there.
 baseurl: ""
 url: "http://gooditerations.com"
-keywords: "good, iterations, digital, delivery, coppin-smith, leadership"
+keywords: "good, iterations, good iterations, digital, delivery, coppin-smith, leadership, autonomy, performance, teams, scaling"
 
 # Build settings
 markdown: kramdown
