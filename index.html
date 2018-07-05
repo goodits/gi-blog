@@ -2,17 +2,12 @@
 layout: default
 ---
 
-<div class="row alert alert-info alert-dismissible" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  Hello! This site is very much in beta, so you <em>Better Expect Those Accidents</em>. I haven't tested on all devices, browsers and widths <strong>yet</strong>, but I do want to it work for you. If you find any content, styling or functional issues please <a href="https://twitter.com/GoodIterations">DM me a note on Twitter</a> and follow while you're there. Thank you for your support! Steve C-S.
-</div>
-
 <div class="row jumbotron brand-bg">
   <h2>Digital delivery that feels <span class="font-brand">good</span>.</h2>
   <h3>{{ site.description }}</h3>
 </div>
 
-<div class="row services white-bg">
+<div class="row services white-bg narrow"/>
   <h2>What we do best</h2>
   {% for service in site.data.services %}
   <div class="col-md-4 service">
@@ -50,7 +45,7 @@ layout: default
 <div class="row references gray-bg narrow">
   <h2>Positive vibes</h2>
   {% for reference in site.data.references %}
-  <div class="col-md-4 reference">
+  <div class="col-md-12 reference">
     <p>{{ reference.note }}</p>
     <p span class="font-brand">
       {{ reference.name }}, {{ reference.title}}
