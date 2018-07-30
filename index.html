@@ -3,55 +3,79 @@ layout: default
 ---
 
 <div class="row jumbotron brand-bg">
-  <h2>Digital delivery that feels <span class="font-brand">good</span>.</h2>
-  <h3>{{ site.description }}</h3>
+  <div class="snapline">
+    <h2>Digital delivery that feels <span class="font-brand">good</span>.</h2>
+    <h3>{{ site.description }}</h3>
+  </div>
 </div>
 
 <div class="row services white-bg narrow"/>
-  <h2>What we do best</h2>
+  <div class="col-md-4 col-sm-6 col-xs-12">
+    <div class="accent-bg service">
+      <h2 class="title">What <br/><span class="font-brand">Good Iterations</span><br/> does best</h2>
+    </div>
+  </div>
   {% for service in site.data.services %}
-  <div class="col-md-4 service">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 col-sm-4">
-          <img src="/assets/img/{{ service.image }}" alt="{{ service.image-alt }}" />
-        </div>
-        <div class="col-md-12 col-sm-8">
-          <h3>{{ service.title }}</h3>
-          <p>{{ service.blurb }}</p>
-        </div>
-      </div>
+  <div class="col-md-4 col-sm-6 col-xs-12">
+    <div class="brand-bg service">
+      <h3>{{ service.title }}</h3>
+      <p>{{ service.blurb }}</p>
     </div>
   </div>
   {% endfor %}
 </div>
 
-<div class="row profile brand-bg narrow">
-  <h2>Meet the founder</h2>
-  {% for founder in site.data.founders %}
-  <div class="col-sm-4">
-    <img src="assets/img/{{ founder.image }}" alt="{{ founder.image-alt }}" />
-  </div>
-  <div class="col-sm-8">
-    <h3 class="font-brand">{{ founder.salutation }}!</h3>
-      {% for note in founder.notes %}
+<div class="row brand-bg narrow">
+  <div class="profile">
+    <div class="col-md-3">
+        <h2>Founder</h2>
+        <p>Quick note from the founder of Good Iterations.</p>
+    </div>
+    <div class="col-md-9">
+      <img src="assets/img/{{ site.data.founder.image }}" alt="{{ site.data.founder.image-alt }}" />
+      {% for note in site.data.founder.notes %}
         <p>{{ note }}</p>
       {% endfor %}
-    <h3 class="font-brand">{{ founder.name }}</h3>
+      <h3 class="font-brand">{{ site.data.founder.name }}</h3>
+    </div>
   </div>
-  {% endfor %}
 </div>
 
-<div class="row references gray-bg narrow">
-  <h2>Positive vibes</h2>
-  {% for reference in site.data.references %}
-  <div class="col-md-12 reference">
-    <p>{{ reference.note }}</p>
-    <p span class="font-brand">
-      {{ reference.name }}, {{ reference.title}}
-    </p>
+<div class="row white-bg narrow">
+  <div class="references">
+    <div class="col-md-3">
+      <h2>Good vibes</h2>
+      <p>Some really kind words from people we've worked with.</p>
+    </div>
+    <div class="col-md-9">
+      {% for reference in site.data.references %}
+      <div class="reference">
+        <p>
+          <i class="fa fa-quote-left"></i>
+          {{ reference.note }}
+          <i class="fa fa-quote-right"></i>
+        </p>
+        <p span class="name">
+          {{ reference.name }}, {{ reference.title}}
+        </p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
-  {% endfor %}
+</div>
+
+<div class="row accent-bg narrow">
+  <div class="mission">
+    <div class="col-md-3">
+      <h2>{{ site.data.mission.title }}</h2>
+      <p>{{ site.data.mission.subtitle }}</p>
+    </div>
+    <div class="col-md-9">
+        {% for note in site.data.mission.notes %}
+          <p>{{ note }}</p>
+        {% endfor %}
+    </div>
+  </div>
 </div>
 
 <div class="row posts white-bg narrow">

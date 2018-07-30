@@ -1,12 +1,14 @@
 ---
 ---
 
-$brand-primary:         #009999 !default; // #337ab7
+$brand-primary:         #4b6a8e !default; // #337ab7
+$brand-secondary:       #eeeeee !default;
+$brand-accent:          #f2733b !default;
 
 $body-bg:               #FFF;
 $text-color:            lighten(#000, 30%) !default;
 
-$link-color:            $brand-primary !default;
+$link-color:            $brand-accent !default;
 $link-hover-color:      lighten($link-color, 5%) !default;
 $link-hover-decoration: underline !default;
 
@@ -15,19 +17,19 @@ $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 $font-family-brand:       'Lobster', cursive;
 $font-size-base:          20px !default;
 
-$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
-$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h1:            floor(($font-size-base * 2.1)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 1.8)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.3)) !default; // ~24px
 $headings-color:          $brand-primary !default;
 
-$navbar-height:                    60px !default;
+$navbar-height:                    40px !default;
 $navbar-border-radius:             0px !default;
 $navbar-padding-horizontal:        0px !default;
 $navbar-padding-vertical:          10px !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-default-color:             #777 !default;
-$navbar-default-bg:                lighten(#000, 30%) !default;
+$navbar-default-color:             $brand-primary !default;
+$navbar-default-bg:                $brand-secondary !default;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 
 $navbar-default-link-color:                #FFF !default;
@@ -40,12 +42,14 @@ $navbar-default-brand-hover-bg:            transparent !default;
 
 @import "bootstrap/bootstrap";
 
-$fa-font-path: "../fonts" !default;
-@import "font-awesome/font-awesome";
-
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-top: 60px !important;
+}
+
+.fa-quote-left, .fa-quote-right {
+  color: $brand-primary;
 }
 
 .navbar {
@@ -60,28 +64,44 @@ body {
 .navbar-brand {
   width: 75%;
   padding: 0px;
+  height: 40px;
+
+  img {
+    display: block;
+    height: 100%;
+    float: left;
+  }
 }
 
 .navbar-header {
   width: 100%;
+  height: 100%;
   padding: 10px;
-  img {
-    display: block;
-    height: 100%;
-    float:left;
-  }
+
   h1 {
+    font-size: $navbar-height;
     font-family: $font-family-brand;
     margin: 0px;
     padding: 0px 10px;
     display: block;
-    color: #fff;
+    color: $brand-primary;
     float:left;
   }
-  a.btn {
+
+  button.btn {
     height: $navbar-height;
-    font-size: 30px;
+    font-size: 20px;
+    float:right;
   }
+}
+
+.modal-backdrop.in {
+	opacity: 0.7;
+}
+
+.modal-content {
+  border-radius: 0;
+  border-bottom: solid 10px $brand-accent;
 }
 
 .font-brand {
@@ -95,7 +115,8 @@ p.footnote {
 .posts {
   padding: 30px 0px;
   h2 {
-    font-size: $font-size-h3;
+    margin-top: 0px;
+    // font-size: $font-size-h3;
   }
 }
 
@@ -124,9 +145,10 @@ p.footnote {
 
 .post-teaser {
   h3 {
+    margin-top: 0px;
     margin-bottom: 5px;
   }
-  padding: 5px 0px;
+  padding-bottom: 10px;
 }
 
 .post {
@@ -142,17 +164,6 @@ hr.gi-hr {
   width: 66%;
   text-align: right;
   margin: 15px auto;
-
-  // &:after {
-  //   content: url("/assets/img/gi-hr.png");
-  //   /* Controls the position of the logo */
-  //        left: 50%;
-  //        position: absolute;
-  //        transform: translateY(-50%) translateX(-50%);
-  //        /* Controls the whitespace around the symbol */
-  //        padding: 20px;
-  //        background: #fff;
-  // }
 }
 
 .alert {
@@ -161,40 +172,78 @@ hr.gi-hr {
 }
 
 .jumbotron {
+  background-image: url("/assets/img/action-adventure.jpg");
+  background-repeat: no-repeat;
+  background-color: $brand-accent;
+  background-size: cover;
   border-radius: 0px !important;
   margin-bottom: 0px;
-  h2 {
-    font-size: $font-size-h1;
+  height: 100%;
+  .snapline {
+    margin-left: 10px;
+    background-color: $brand-primary;
+    opacity: 0.9;
+    padding: 50px;
+    width: 50%;
+    border-bottom: solid 10px $brand-accent;
+    h2 {
+      opacity: 1;
+      font-size: $font-size-h1;
+    }
   }
 }
 
 .services {
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
 
-    max-height: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+
+  &:after, &:before {
+    display: none;
   }
 
-  h2 {
-    text-align: center;
-  }
-
+ > [class*='col-'] {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   padding: 0px;
+ }
   .service {
-    padding: 50px 20px;
+    text-align: center;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    height: 300px;
+    border-bottom: solid 10px $brand-accent;
+    height: 100%;
+
+    h2.title {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+    }
   }
 }
 
 .references {
 
+  padding: 30px 0px;
+
   h2 {
-    text-align: center;
+    margin-top: 0px;
   }
 
   .reference {
-    padding: 15px;
+    padding-bottom: 30px;
+
+    .name {
+      color: $brand-primary;
+      font-weight: bold;
+    }
   }
 }
 
@@ -205,7 +254,22 @@ hr.gi-hr {
   }
 
   a {
+    color: #fff;
+    text-decoration: underline;
+    :hover {
+
+    }
+  }
+}
+
+.accent-bg {
+  background-color: $brand-accent;
+  h2, h3, p {
     color: #FFF;
+  }
+
+  a {
+    color: #fff;
     text-decoration: underline;
     :hover {
 
@@ -217,28 +281,37 @@ hr.gi-hr {
   background-color: lighten(#dad9d0, 10%);
 }
 
+.secondary-bg {
+  background-color: $brand-secondary;
+}
+
 .white-bg {
   background-color: #FFF;
 }
 
 .profile {
-  padding-bottom: 30px;
+  padding: 30px 0px;
 
   img {
     width: 100%;
-    margin: 28px auto;
+    margin: 20px;
     border-radius: 50%;
-    border: solid 4px #FFF;
-    max-height: 280px;
-    max-width: 280px;
+    border: solid 4px #fff;
+    max-height: 200px;
+    max-width: 200px;
+    float: right;
   }
 
   h2 {
-    text-align: center;
+    margin-top: 0px;
   }
+}
 
-  p {
-    font-size: 22px;
+.mission {
+  padding: 30px 0px;
+
+  h2 {
+    margin-top: 0px;
   }
 }
 
@@ -249,29 +322,35 @@ body {
 .navbar {
   padding: 10px 100px;
 
-  li {
-    font-size: 25px;
-    padding: 30px 10px;
-  }
-
   .navbar-right {
     margin: 0px;
   }
 
 }
 
+.modal {
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 30px;
+    a {
+      color: $brand-accent;
+    }
+  }
+}
+
 .footer {
-  background-color: lighten(#000, 30%);
-  color: #fff;
+  background-color: $navbar-default-bg;
 
   .footnote {
     padding-top: 20px;
     padding-bottom: 10px;
-    color: #BBB;
+    color: #888;
+    text-align: center;
   }
 
   h3 {
-    color: #FFF;
+    color: $brand-primary;
   }
 
   ul {
@@ -279,7 +358,7 @@ body {
     padding-left: 0px;
     font-size: 30px;
     a {
-      color: #fff;
+      color: $brand-accent;
     }
   }
   .container {
@@ -287,12 +366,12 @@ body {
   }
 }
 
-.btn-default {
+.btn {
   color: #fff;
-  background-color: $brand-primary;
-  &:hover {
+  background-color: $brand-accent;
+  &:hover, &:focus {
     color: #fff;
-    background-color: lighten($brand-primary, 5%);
+    background-color: darken($brand-accent, 5%);
   }
   border: 0px;
 }
@@ -341,24 +420,25 @@ blockquote {
     .navbar-brand {
       height: 100%;
     }
+  }
 
-    .navbar-header {
-      height: 60px;
-
-      h1 {
-        font-size: 40px;
-      }
-      a.btn {
-        height: 40px;
-        font-size: 20px;
-        float:right;
-      }
+  .jumbotron {
+    .snapline {
+      width: 75%;
     }
   }
 
   .services {
     .service {
-      padding: 20px 0px;
+      padding: 15px 15px;
+
+      h2.title {
+        margin: auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0%, 0%);
+      }
 
       img {
         width: 80%;
@@ -374,17 +454,8 @@ blockquote {
     padding: 10px 0px 15px 0px;
   }
 
-  .jumbotron {
-    .container {
-      width: 85%;
-    }
-  }
-
   .posts {
-    .container {
-      width: 85%;
-    }
-    padding: 30px 0px;
+    padding: 20px 0px;
   }
 
   .post-image {
@@ -406,8 +477,15 @@ blockquote {
     width: 100%;
   }
 
+  .jumbotron {
+    .snapline {
+      margin-left: 0px;
+      width: 100%;
+    }
+  }
+
   .jumbotron.row {
-    padding: 20px 40px;
+    padding: 20px 15px;
   }
 
   .row.narrow {
@@ -416,33 +494,43 @@ blockquote {
   }
 
   .navbar {
-    h1 {
-      display: none;
-    }
-
     .navbar-brand {
-      width: 50%;
-    }
-  }
-
-  .profile {
-    img {
-      display: block;
-      width: 50%;
-      margin: auto;
+      width: 70%;
     }
   }
 
   .services {
     .service {
       text-align: center;
+      height: auto;
 
-      img {
-        width: 50%;
-      }
       h3 {
         margin-top: 15px;
       }
+    }
+  }
+}
+
+@media (max-width: $screen-xs-min) {
+
+  .navbar {
+    .navbar-brand {
+      width: 50%;
+    }
+  }
+
+  .navbar {
+    h1 {
+      display: none;
+    }
+  }
+
+  .profile {
+    img {
+      display: block;
+      width: 100%;
+      float: none;
+      margin: 10px auto;
     }
   }
 }
