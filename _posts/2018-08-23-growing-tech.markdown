@@ -1,45 +1,45 @@
 ---
 layout: post
-title:  "So you’re growing your tech team?"
+title:  "So you want to grow your tech team?"
 date:   2018-08-23 00:00:00 +0000
 summary: Your customers and investors are loving your company! The opportunities are lining themselves up quicker than you can knock them down. You need to scale it up quickly without compromising all the great things that got you this far. Where to start? This is how Good Iterations can help.
 categories: service
 position: front
 keywords: growth, tech, teams
 ---
-Your customers are loving your company! The opportunities are lining themselves up quicker than you can knock them down. You’ve got this far with a small delivery team. Perhaps you don’t have one at all - extra kudos! You need to scale it up quickly without compromising all the great things that got you this far. Where to start? This is how Good Iterations can help.
+Your customers are loving your company! The opportunities are lining themselves up quicker than you can knock them down. You’ve got this far with a small delivery team. Perhaps you don’t have one at all - extra kudos! You need to scale it up quickly without compromising all the great things that got you this far. Where to start? Good Iterations can help.
 
-## Kicking off the pipeline
-It takes a while for the best candidates to fill the pipeline, so we’ll waste no time to:
+## Kicking off recruitment
+It takes a while for the best candidates to fill the pipeline, so we’ll waste no time:
 
-* Put out a compelling advert that will speak to top technical talent. We can do this ourselves or engage with recruiters, whatever your preference.
-* Build a set of recruitment steps to identify, track and funnel the best candidates to your table. The steps will be designed to have minimal impact on your existing team (including you) while still proving we’re talking to the right people. Expect this to include a practical test to see an example of how the candidate delivers.
-* Screen and engage candidates in the early steps of the pipeline while we learn more and prepare the rest of the team for scale.
+* Putting out a compelling advert that will draw in to top technical talent. We can do this ourselves or engage with recruiters, whatever your preference.
+* Building a set of recruitment steps to identify, track and funnel the best candidates to your table. The steps will be designed to have minimal impact on your existing team (including you) while still proving we’re talking to the right people. Expect this to include a practical test to see an example of how the candidate delivers.
+* Screening and engaging candidates while we prepare the rest of the team for scale.
 
-## Knowing the team and gaps
-The aim is never a headcount! The aim is to increase capacity by addressing blockers to effective growth, of which headcount might be one. To find out *who* we’re looking for we will:
+## Knowing your team and its blockers
+The aim of growth is not just to increase headcount! The aim is to increase output by addressing blockers to effective growth, of which headcount might be one. To find out how best to grow your team we will:
 
 * Spend time with leaders in the business to understand your strategy and the extent to which the existing engineering team is capable of supporting it. We want to know your likes/dislikes and your hopes/fears around technical delivery
 * Get to know your existing technical team to establish key strengths and development opportunities within the team.
-* Establish which gaps we hire for and which ones can be developed internally through up-skilling, coaching, delivery enhancements, etc. This further informs the recruitment goals and will be held up against existing candidates, changing the attraction strategy where needed.
-* Where at all possible, we’ll introduce KPIs to know that our growth is on the right track and prove its success.
+* Establish which gaps we hire for and which ones can be developed internally through up-skilling, coaching, delivery enhancements, etc.
+* Where possible, we’ll introduce KPIs to know that our growth is on the right track and prove its success.
 
-## Refining software delivery culture and process
-It’s about to be very different around here. What are the things that made you successful so far that you need to maintain? What’s missing? We need to ask this question before we add more people, so we will:
+## Refining your software delivery approach
+It’s about to be very different around here. What are the things that made you successful so far that you need to maintain? What’s missing? We need to answer these questions before adding more people, so we will:
 
 * Define (or refine) your engineering culture by discussing with your technical team and leadership what type of team, and individuals within it, you want to be. This could be a few bullet points, it could be a full blown manifesto. Whatever form it takes, you’ll be asking your new hires to sign up to it before they get cracking.
 * Review the delivery process, from idea capture to deployed code, to make sure it’s ready for new talent. Scaling inefficiencies isn’t a good strategy. We’ll work with the team to eliminate them and build in just enough mechanisms to make sure that communication and collaboration in a bigger team is set up for success.
 * Review the current and future architecture with your engineers to ensure it’s ready for scale and schedule the development of any pinch points before we hit them.
 
 ## Growing the team
-We know who we’re looking for and we’re ready for them. Let’s hire the best people and give them the best possible start. To do this, we will:
+We know who we’re adding to the team and we’re ready for them. Let’s hire the best people and give them the best possible start. To do this, we will:
 
 * Make an informed and collaborative decision on who we want to add to the team, working with leadership to ensure the offer matches the value to the company.
 * Plan and give a quick but comprehensive introduction to the way your company and technical team gets stuff done.
 * Onboard, provide coaching and assess the new hire to validate that they have a long and successful career ahead with the company.
 
 ## Leading lean
-Growth is change. It’s important to keep tabs on how effective the change has been and the opportunities it has unlocked. To make sure we’re being effective as possible at our new size, we will:
+Growth is change. It’s important to keep tabs on how effective the change has been and the opportunities it has unlocked. To make sure we’re being effective as possible at the new size, we will:
 
 * Re-evaluate and iterate the delivery approach and culture to make sure your team is adopting the very best practices in effective software delivery.
 * Be an active coach for all members of the technical delivery effort, old and new, to help them adapt and make the most of opportunities in a bigger team.
@@ -55,7 +55,7 @@ That’s *the* plan! More accurately, it’s *a* plan. Every company is starting
 ... answered by Steve C-S, Tech Lead.
 
 ### Why should my company use Good Iterations?
-Since starting my career as a software engineer I’ve worked in technical, people, product and leadership roles across many different sectors and team sizes. I’ve built a strong understanding of how to achieve a highly effective team and am empathetic of the journey to get there. That journey is a holistic one and needs all of those areas to progress together with a strong appreciation for each other. Good Iterations knows what great delivery looks like and how to get your company there. If you need more convincing, check out my
+Since starting my career as a software engineer I’ve worked in technical, people, product and leadership roles across many different sectors and team sizes. I’ve built highly effective teams and am empathetic of the journey to get there. That journey is a holistic one and needs an understanding of all of those areas to progress together with a strong appreciation for each other. Good Iterations knows what great delivery looks like and how to get your company there. If you need more convincing, check out my
 <a href="https://www.linkedin.com/in/steve-coppin-smith-b909362/" target="\_blank">credentials on LinkedIn</a>,
 <a href="/" target="\_blank">references on the home page</a> and <a href="https://twitter.com/gooditerations" target="\_blank">updates on Twitter</a>.
 
