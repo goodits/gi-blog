@@ -24,7 +24,7 @@ The aim is never a headcount! The aim is to increase capacity by addressing bloc
 * Establish which gaps we hire for and which ones can be developed internally through up-skilling, coaching, delivery enhancements, etc. This further informs the recruitment goals and will be held up against existing candidates, changing the attraction strategy where needed.
 * Where at all possible, we’ll introduce KPIs to know that our growth is on the right track and prove its success.
 
-## Refining culture and process
+## Refining software delivery culture and process
 It’s about to be very different around here. What are the things that made you successful so far that you need to maintain? What’s missing? We need to ask this question before we add more people, so we will:
 
 * Define (or refine) your engineering culture by discussing with your technical team and leadership what type of team, and individuals within it, you want to be. This could be a few bullet points, it could be a full blown manifesto. Whatever form it takes, you’ll be asking your new hires to sign up to it before they get cracking.
@@ -36,7 +36,7 @@ We know who we’re looking for and we’re ready for them. Let’s hire the bes
 
 * Make an informed and collaborative decision on who we want to add to the team, working with leadership to ensure the offer matches the value to the company.
 * Plan and give a quick but comprehensive introduction to the way your company and technical team gets stuff done.
-* Onboarding coaching and assessment to validate that the new hire has a long and successful career to look forward to with the company.
+* Onboard, provide coaching and assess the new hire to validate that they have a long and successful career ahead with the company.
 
 ## Leading lean
 Growth is change. It’s important to keep tabs on how effective the change has been and the opportunities it has unlocked. To make sure we’re being effective as possible at our new size, we will:
@@ -52,7 +52,7 @@ That’s *the* plan! More accurately, it’s *a* plan. Every company is starting
 ---
 
 ## Frequently asked questions
-... answered by Steve C-S
+... answered by Steve C-S, Tech Lead.
 
 ### Why should my company use Good Iterations?
 Since starting my career as a software engineer I’ve worked in technical, people, product and leadership roles across many different sectors and team sizes. I’ve built a strong understanding of how to achieve a highly effective team and am empathetic of the journey to get there. That journey is a holistic one and needs all of those areas to progress together with a strong appreciation for each other. Good Iterations knows what great delivery looks like and how to get your company there. If you need more convincing, check out my
