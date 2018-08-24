@@ -12,8 +12,12 @@ Your customers are loving your company! The opportunities are lining themselves 
 ## Kicking off recruitment
 It takes a while for the best candidates to fill the pipeline, so we’ll waste no time:
 
-* Putting out a compelling advert that will draw in to top technical talent. We can do this ourselves or engage with recruiters, whatever your preference.
-* Building a set of recruitment steps to identify, track and funnel the best candidates to your table. The steps will be designed to have minimal impact on your existing team (including you) while still proving we’re talking to the right people. Expect this to include a practical test to see an example of how the candidate delivers.
+* Putting out a compelling advert that will draw in to top technical talent. We can do this ourselves or engage with recruiters and/or your internal hiring team, whatever your preference.
+* Building a set of recruitment steps to identify, track and funnel the best candidates to your table. The steps will be designed to have minimal impact on your existing team (including you) while still proving we’re talking to the right people. Expect to look something like this:
+  * Initial telephone interview to discuss the role fit and process
+  * Practical test to see an example of how the candidate delivers
+  * Technical interview with a member of the team with pairing exercise
+  * Final interview with a member of the leadership team
 * Screening and engaging candidates while we prepare the rest of the team for scale.
 
 ## Knowing your team and its blockers
